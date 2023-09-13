@@ -30,3 +30,26 @@ const myFunction = function(){
     console.log("Hello world")
 }
 
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack (Primitive), Heap (Non-Primitive)
+
+let myName = "Satya"
+let anotherName = myName;
+
+anotherName = "Ipsita"
+
+console.log(myName)
+console.log(anotherName)
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "pampu@gmail.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
